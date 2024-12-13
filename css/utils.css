@@ -247,3 +247,31 @@
 .card-body{
     padding: 2rem;
 }
+
+
+/* mobile */
+
+@media(max-width:768px){
+    .flex-items{
+        flex-direction: column;
+    }
+
+
+
+    .flex-grid .column{
+        flex:50%;
+    }
+
+    .flex-columns .column{
+        flex:100%;
+    }
+
+    .flex-columns.flex-reverse .row{
+        flex-direction: column-reverse;
+    }
+
+    .flex-items>div {
+        padding: 1rem;
+        flex-basis: 100%;
+    }
+}

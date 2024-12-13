@@ -268,3 +268,27 @@ img {
 .footer p {
     margin: 2rem 0;
 }
+
+
+/* mobile */
+
+@media(max-width:768px){
+    html{
+        font-size: 7px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 12rem;
+        padding: 2rem;
+    }
+
+    .navbar a{
+        padding: 1rem;
+        margin: 0 .3rem;
+    }
+
+    .teams img{
+        width: 70%;
+    }
+}
