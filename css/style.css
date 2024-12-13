@@ -185,3 +185,16 @@ img {
     opacity: 0.8;
     transition: all .3s;
 }
+
+
+/* teams */
+
+.teams .flex-items img{
+    border-radius: 50%;
+    
+}
+
+.teams .flex-items img:hover{
+    opacity: 0.7;
+    transition: all .3s;
+}
