@@ -164,16 +164,24 @@ img {
 
 /*about*/
 
-#about {
+.about {
     color: #fff;
 }
 
-#about .column-2 h2 {
+.about .column-2 h2 {
     font-size: 4rem;
     font-weight: 400;
 
 }
 
-#about .column-2 p {
+.about .column-2 p {
     margin: 2rem 0;
+}
+
+/* gallery */
+
+.gallery img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all .3s;
 }
