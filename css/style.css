@@ -160,3 +160,20 @@ img {
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
+
+
+/*about*/
+
+#about {
+    color: #fff;
+}
+
+#about .column-2 h2 {
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+#about .column-2 p {
+    margin: 2rem 0;
+}
