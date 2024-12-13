@@ -48,3 +48,115 @@ img {
 .text-center {
     text-align: center;
 }
+
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    opacity: 0.8;
+    color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 3rem;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 .3rem;
+}
+
+.navbar a:hover {
+    border-bottom: .2rem solid var(--warning);
+}
+
+.nabbar .brand {
+    font-weight: 400;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+}
+
+.navbar span {
+    color: var(--warning);
+}
+
+
+/*header*/
+
+.main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.main-header {
+    background-image: url("../img/bg-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+.main-header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    /*içerik kadar yer kaplıyordu bunu yazana kadar*/
+
+}
+
+.main-header *{
+    z-index: 5;
+}
+
+.main-header .content h1{
+    font-size: 5.5rem;
+}
+
+.main-header .content p{
+    font-size: 2rem;
+    max-width: 60rem;
+    margin: 2rem 0 3rem;
+}
+
+/*icons*/
+
+.icons{
+    padding: 3rem;
+}
+
+.icons h3{
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.icons i{
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
