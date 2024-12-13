@@ -8,6 +8,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -114,6 +115,11 @@ img {
     height: 100vh;
     color: #fff;
     position: relative;
+}
+
+.main-header.blog{
+    background-image: url("../img/bg-2.jpeg");
+    height: 50vh;
 }
 
 .main-header .content {
@@ -291,4 +297,18 @@ img {
     .teams img{
         width: 70%;
     }
+
+    .main-header.blog{
+        height: 30vh;
+    }
+}
+
+
+.articles{
+    padding: 3rem 5rem;
+}
+
+.article{
+    margin-bottom: 2rem;
+    color: #fff;
 }
